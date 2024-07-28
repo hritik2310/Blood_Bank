@@ -1,0 +1,7 @@
+{
+    "routes": [
+      { "src": "/api/v1/(.*)", "dest": "server.js" },
+      { "src": "/(.*)", "dest": "client/build/$1" }
+    ]
+  }
+  
